@@ -1,0 +1,408 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    font-family: "consolas";
+    background: #bec2fd;
+    color: #fff;
+}
+
+.text h1{
+    margin-left: 5%;
+    font-size: 32px;
+    font-weight: 600;
+    transition: all .6s ease;
+}
+
+.text h1:hover{
+    color: blue;
+    transform: translateY(-5px);
+}
+
+.nav-btn {
+    position: absolute;
+    top: 4%;
+    left: 82%;
+    display:inline-block;
+    padding: 9px 24px;
+    background: transparent;
+    border: 2px solid navy;
+    border-radius: 7px;
+    color: navy;
+    font-size: 15px;
+    font-weight: 500;
+    transition: all .6s ease;
+}
+
+.nav-btn:hover{
+    transform: translateY(-5px);
+    border: 2px solid red;
+    color: red;
+}
+
+.img-modal{
+    cursor: pointer;
+    transition: all .8s ease;
+}
+
+.img-modal .img {
+    position: absolute;
+    top: 40%;
+    left: 20%;
+    transform: translate(-50%, -50%);
+    width: 400px;
+    height: 250px;
+    border-radius: 5%;
+}
+
+.img-modal .img1 {
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 400px;
+    height: 250px;
+    border-radius: 5%;
+}
+
+.img-modal .img2 {
+    position: absolute;
+    top: 40%;
+    left: 80%;
+    transform: translate(-50%, -50%);
+    width: 400px;
+    height: 250px;
+    border-radius: 5%;
+}
+
+.img-modal .img3 {
+    position: absolute;
+    top: 83%;
+    left: 20%;
+    transform: translate(-50%, -50%);
+    width: 400px;
+    height: 250px;
+    border-radius: 5%;
+}
+
+.img-modal .img4 {
+    position: absolute;
+    top: 83%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 400px;
+    height: 250px;
+    border-radius: 5%;   
+}
+
+.img-modal .img5 {
+    position: absolute;
+    top: 83%;
+    left: 80%;
+    transform: translate(-50%, -50%);
+    width: 400px;
+    height: 250px;
+    border-radius: 5%;
+}
+
+.img-modal .img6 {
+    position: absolute;
+    top: 129%;
+    left: 20%;
+    transform: translate(-50%, -50%);
+    width: 400px;
+    height: 280px;
+    border-radius: 5%;
+}
+
+.img-modal .img7 {
+    position: absolute;
+    top: 129%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 400px;
+    height: 280px;
+    border-radius: 5%;   
+}
+
+.img-modal .img8 {
+    position: absolute;
+    top: 129%;
+    left: 80%;
+    transform: translate(-50%, -50%);
+    width: 400px;
+    height: 280px;
+    border-radius: 5%;
+}
+
+
+.img-modal .img9 {
+    position: absolute;
+    top: 199%;
+    left: 20%;
+    transform: translate(-50%, -50%);
+    width: 400px;
+    height: 550px;
+    border-radius: 5%;
+}
+
+.img-modal .img10 {
+    position: absolute;
+    top: 199%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 400px;
+    height: 550px;
+    border-radius: 5%;   
+}
+
+.img-modal .img11 {
+    position: absolute;
+    top: 199%;
+    left: 80%;
+    transform: translate(-50%, -50%);
+    width: 400px;
+    height: 550px;
+    border-radius: 5%;
+}
+
+.img-modal .img12 {
+    position: absolute;
+    top: 289%;
+    left: 20%;
+    transform: translate(-50%, -50%);
+    width: 400px;
+    height: 530px;
+    border-radius: 5%;
+}
+
+.img-modal .img13 {
+    position: absolute;
+    top: 289%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 400px;
+    height: 530px;
+    border-radius: 5%;   
+}
+
+.img-modal .img14 {
+    position: absolute;
+    top: 289%;
+    left: 80%;
+    transform: translate(-50%, -50%);
+    width: 400px;
+    height: 530px;
+    border-radius: 5%;
+}
+
+.img-modal .img15 {
+    position: absolute;
+    top: 357%;
+    left: 20%;
+    transform: translate(-50%, -50%);
+    width: 400px;
+    height: 280px;
+    border-radius: 5%;
+}
+
+.img-modal .img16 {
+    position: absolute;
+    top: 357%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 400px;
+    height: 280px;
+    border-radius: 5%;   
+}
+
+.img-modal .img17 {
+    position: absolute;
+    top: 357%;
+    left: 80%;
+    transform: translate(-50%, -50%);
+    width: 400px;
+    height: 280px;
+    border-radius: 5%;
+}
+
+.img-modal .img18 {
+    position: absolute;
+    top: 427%;
+    left: 20%;
+    transform: translate(-50%, -50%);
+    width: 400px;
+    height: 550px;
+    border-radius: 5%;
+}
+
+.img-modal .img19 {
+    position: absolute;
+    top: 427%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 400px;
+    height: 550px;
+    border-radius: 5%;   
+}
+
+.img-modal .img20 {
+    position: absolute;
+    top: 427%;
+    left: 80%;
+    transform: translate(-50%, -50%);
+    width: 400px;
+    height: 550px;
+    border-radius: 5%;
+}
+
+.img-modal .img21 {
+    position: absolute;
+    top: 519%;
+    left: 20%;
+    transform: translate(-50%, -50%);
+    width: 400px;
+    height: 550px;
+    border-radius: 5%;
+}
+
+.img-modal .img22 {
+    position: absolute;
+    top: 519%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 400px;
+    height: 550px;
+    border-radius: 5%;   
+}
+
+.img-modal .img23 {
+    position: absolute;
+    top: 519%;
+    left: 80%;
+    transform: translate(-50%, -50%);
+    width: 400px;
+    height: 550px;
+    border-radius: 5%;
+}
+
+.img-modal .img:hover{
+    filter: grayscale(0.8);
+    border: 2px solid #fff;
+}
+
+.img-modal .img1:hover{
+    filter: grayscale(0.8);
+    border: 2px solid #fff;
+}
+
+.img-modal .img2:hover{
+   filter: grayscale(0.8);
+   border: 2px solid #fff;
+}
+
+.img-modal .img3:hover{
+    filter: grayscale(0.8);
+    border: 2px solid #fff;
+}
+
+.img-modal .img4:hover{
+    filter: grayscale(0.8);
+    border: 2px solid #fff;
+}
+
+.img-modal .img5:hover{
+    filter: grayscale(0.8);
+    border: 2px solid #fff;
+}
+
+.img-modal .img6:hover{
+    filter: grayscale(0.8);
+    border: 2px solid #fff;
+}
+
+.img-modal .img7:hover{
+    filter: grayscale(0.8);
+    border: 2px solid #fff;
+}
+
+.img-modal .img8:hover{
+    filter: grayscale(0.8);
+    border: 2px solid #fff;
+}
+
+.img-modal .img9:hover{
+    filter: grayscale(0.8);
+    border: 2px solid #fff;
+}
+
+.img-modal .img10:hover{
+    filter: grayscale(0.8);
+    border: 2px solid #fff;
+}
+
+.img-modal .img11:hover{
+    filter: grayscale(0.8);
+    border: 2px solid #fff;
+}
+
+.img-modal .img12:hover{
+    filter: grayscale(0.8);
+    border: 2px solid #fff;
+}
+
+.img-modal .img13:hover{
+    filter: grayscale(0.8);
+    border: 2px solid #fff;
+}
+
+.img-modal .img14:hover{
+    filter: grayscale(0.8);
+    border: 2px solid #fff;
+}
+
+.img-modal .img15:hover{
+    filter: grayscale(0.8);
+    border: 2px solid #fff;
+}
+
+.img-modal .img16:hover{
+    filter: grayscale(0.8);
+    border: 2px solid #fff;
+}
+
+.img-modal .img17:hover{
+    filter: grayscale(0.8);
+    border: 2px solid #fff;
+}
+
+.img-modal .img18:hover{
+    filter: grayscale(0.8);
+    border: 2px solid #fff;
+}
+
+.img-modal .img19:hover{
+    filter: grayscale(0.8);
+    border: 2px solid #fff;
+}
+
+.img-modal .img20:hover{
+    filter: grayscale(0.8);
+    border: 2px solid #fff;
+}
+
+.img-modal .img21:hover{
+    filter: grayscale(0.8);
+    border: 2px solid #fff;
+}
+
+.img-modal .img22:hover{
+    filter: grayscale(0.8);
+    border: 2px solid #fff;
+}
+
+.img-modal .img23:hover{
+    filter: grayscale(0.8);
+    border: 2px solid #fff;
+}

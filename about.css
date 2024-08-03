@@ -1,0 +1,141 @@
+:root{
+    --color-bg: #000531;
+    --color-text: #f0f0f0;
+}
+
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    width: 100%;
+    height: 100%;
+    background: var(--color-bg);
+    color: var(--color-text);
+    font-family: consolas;
+}
+
+.about {
+    width: 100%;
+    height: 100px;
+    padding: 1em;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    color: yellow;
+    cursor: pointer;
+}
+
+.about p {
+    font-size: 14px;
+    font-weight: 400;
+    text-transform: uppercase;
+}
+
+img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+
+}
+
+.container {
+    width: 100%;
+    height: 100%;
+}
+
+.hidden {
+    opacity: 0;
+    filter: blur(5px);
+    transform: translateX(-100%);
+    transition: all 1s;
+}
+
+.show {
+    opacity: 1;
+    filter: blur(0);
+    transform: translateX(0);
+}
+
+.row {
+    width: 100%;
+    display: flex;
+}
+
+.col {
+    height: 100%;
+}
+
+.img-container {
+    width: fit-content;
+    height: 100%;
+}
+
+.img-container.left {
+    text-align: right;
+}
+
+.img-container p {
+    position: relative;
+    padding: 5px 0;
+    color: var(--color-text);
+    opacity: 1;
+    transition: opacity 0.3s , transform 0.3s;
+}
+
+.img-container .para p{
+    color: yellow;
+}
+
+#row-1 {
+    height: 600px;
+}
+
+#row-2 {
+    height: 400px;
+}
+
+#row-3 {
+    height: 400px;
+    margin-left: -62%;
+}
+
+#row-4 {
+    height: 500px;
+}
+
+#row-5 {
+    height: 360px;
+    margin-left: 2%;
+}
+
+#row-6 {
+    height: 400px;
+    margin-left: 2%;
+}
+
+#row-7 {
+    height: 400px;
+    margin-left: 2%;
+}
+
+#row-8 {
+    height: 380px;
+    margin-left: 2%;
+}
+
+.col:nth-child(1){
+    flex: 3;
+    display: flex;
+    justify-content: flex-end;
+    transition-delay: 200s;
+}
+
+.col:nth-child(2) {
+    flex: 5;
+    transition-delay: 400s;
+}
+
